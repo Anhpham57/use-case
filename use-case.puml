@@ -1,0 +1,14 @@
+@startuml
+
+left to right direction
+:actor: 学生
+:actor: "el-Campusシステム" as System
+
+学生 --> (ログイン)
+学生 --> (コース登録)
+学生 --> (課題提出)
+学生 --> (成績確認)
+
+System --> (通知送信)
+
+@enduml
